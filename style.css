@@ -6,6 +6,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    font-family: sans-serif;
 }
 
 .container {
@@ -16,7 +17,7 @@
 
 .sidebar-container {
     position: relative;
-    width: 30vw;
+    width: 35vw;
     height: 100vh;
     background-image: url("./assets/rainforest-background.jpg");
     background-repeat: no-repeat;
@@ -52,4 +53,15 @@
     display: flex;
     flex: 1;
     flex-direction: column;
+}
+
+.credit-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    bottom: 1%;
+    text-align: center;
+    color: white;
 }
