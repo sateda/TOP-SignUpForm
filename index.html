@@ -18,21 +18,37 @@
             </div>
         </div>
         <div class="content">        
-            <div class="quote-block">This is not a real online service! You know you need something like this in you life to help you realize your deepest dreams. Sign up now to get started. You know you want to.</div>
-            <div class="signup-form-container"><p>Let's do this!</p>
-                <form class="signup-form">
-                    FIRST NAME <input>
-                    EMAIL <input>
-                    PASSWORD <input>
-                    LAST NAME <input>
-                    PHONE NUMBER <input>
-                    CONFIRM PASSWORD <input>                    
-                </form>
-
+            <div class="quote-block">
+                <p id="quote">This is not a real online service! You know you need something like this in you life to help you realize your deepest dreams. 
+                <br>Sign up <em>now</em> to get started.</p>
+                <p id="call-to-action">You <em>know</em> you want to.</p>
             </div>
-            <div class="create-account">
-                <button>create-account</button>
-                Already have an account? Log in
+            <div class="signup-form-container">
+                <form class="signup-form">
+                    <table class="signup-table">
+                        <caption><p>Let's do this!</p></caption>
+                        <tr>
+                            <td><label for="first_name">FIRST NAME</label><br><input type="text" id="first_name" name="first_name"></td>
+                            <td><label for="last_name">LAST NAME</label><br><input type="text" id="last_name" name="last_name"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="email">EMAIL</label><br><input type="email" id="email" name="email"></td>
+                            <td><label for="phone_number">PHONE NUMBER</label><br><input type="number" id="phone_number" name="phone_number"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="password">PASSWORD*</label><br><input type="password" id="password" name="password" required></td>
+                            <td><label for="confirm_password">CONFIRM PASSWORD*</label><br><input type="password" id="confirm_password" name="confirm_password" required></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="create-account-container">
+                <div>
+                    <a href="#" class="create-account-btn">create-account</a>
+                </div>
+                <div class="account-text">
+                    <p id="test">Already have an account? <a href="#" id="log-in-link">Log in</a></p>
+                </div>
             </div>
         </div>
     </div>
